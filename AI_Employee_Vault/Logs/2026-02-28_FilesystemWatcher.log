@@ -1,0 +1,171 @@
+2026-02-28 03:25:54,153 - FilesystemWatcher - INFO - Watching folder: C:\Users\Kashan Shah\OneDrive\Pictures\Documents\GitHub\Personal-AI-Employee-FTEs\AI_Employee_Vault\Inbox
+2026-02-28 03:25:54,153 - FilesystemWatcher - INFO - Drop folder: C:\Users\Kashan Shah\OneDrive\Pictures\Documents\GitHub\Personal-AI-Employee-FTEs\AI_Employee_Vault\Inbox
+2026-02-28 03:32:05,962 - FilesystemWatcher - INFO - Watching folder: Inbox
+2026-02-28 03:32:05,962 - FilesystemWatcher - INFO - Drop folder: Inbox
+2026-02-28 03:32:05,962 - FilesystemWatcher - INFO - Starting FilesystemWatcher
+2026-02-28 03:32:05,963 - FilesystemWatcher - INFO - Vault path: .
+2026-02-28 03:32:05,963 - FilesystemWatcher - INFO - Check interval: 5s
+2026-02-28 03:36:24,461 - FilesystemWatcher - INFO - Watcher stopped by user
+2026-02-28 03:46:53,572 - FilesystemWatcher - INFO - Loaded 0 processed IDs from state
+2026-02-28 03:46:53,572 - FilesystemWatcher - INFO - Watching folder: Inbox
+2026-02-28 03:46:53,572 - FilesystemWatcher - INFO - Drop folder: Inbox
+2026-02-28 03:46:53,572 - FilesystemWatcher - INFO - Starting FilesystemWatcher
+2026-02-28 03:46:53,572 - FilesystemWatcher - INFO - Vault path: .
+2026-02-28 03:46:53,572 - FilesystemWatcher - INFO - Check interval: 5s
+2026-02-28 03:47:03,583 - FilesystemWatcher - INFO - New file detected: test-file.md
+2026-02-28 03:47:03,587 - FilesystemWatcher - INFO - Found 1 new item(s)
+2026-02-28 03:47:03,590 - FilesystemWatcher - INFO - Copied file to: FILE_20260228_034703_test-file.md
+2026-02-28 03:47:03,590 - FilesystemWatcher - ERROR - Error creating action file: BaseWatcher._create_frontmatter() missing 1 required positional argument: 'item_id'
+2026-02-28 03:47:08,596 - FilesystemWatcher - INFO - New file detected: test-file.md
+2026-02-28 03:47:08,596 - FilesystemWatcher - INFO - Found 1 new item(s)
+2026-02-28 03:47:08,596 - FilesystemWatcher - INFO - Copied file to: FILE_20260228_034708_test-file.md
+2026-02-28 03:47:08,596 - FilesystemWatcher - ERROR - Error creating action file: BaseWatcher._create_frontmatter() missing 1 required positional argument: 'item_id'
+2026-02-28 03:47:13,609 - FilesystemWatcher - INFO - New file detected: test-file.md
+2026-02-28 03:47:13,609 - FilesystemWatcher - INFO - Found 1 new item(s)
+2026-02-28 03:47:13,609 - FilesystemWatcher - INFO - Copied file to: FILE_20260228_034713_test-file.md
+2026-02-28 03:47:13,609 - FilesystemWatcher - ERROR - Error creating action file: BaseWatcher._create_frontmatter() missing 1 required positional argument: 'item_id'
+2026-02-28 03:47:18,619 - FilesystemWatcher - INFO - New file detected: test-file.md
+2026-02-28 03:47:18,619 - FilesystemWatcher - INFO - Found 1 new item(s)
+2026-02-28 03:47:18,619 - FilesystemWatcher - INFO - Copied file to: FILE_20260228_034718_test-file.md
+2026-02-28 03:47:18,619 - FilesystemWatcher - ERROR - Error creating action file: BaseWatcher._create_frontmatter() missing 1 required positional argument: 'item_id'
+2026-02-28 03:47:23,631 - FilesystemWatcher - INFO - New file detected: test-file.md
+2026-02-28 03:47:23,631 - FilesystemWatcher - INFO - Found 1 new item(s)
+2026-02-28 03:47:23,631 - FilesystemWatcher - INFO - Copied file to: FILE_20260228_034723_test-file.md
+2026-02-28 03:47:23,631 - FilesystemWatcher - ERROR - Error creating action file: BaseWatcher._create_frontmatter() missing 1 required positional argument: 'item_id'
+2026-02-28 03:47:28,641 - FilesystemWatcher - INFO - New file detected: test-file.md
+2026-02-28 03:47:28,641 - FilesystemWatcher - INFO - Found 1 new item(s)
+2026-02-28 03:47:28,641 - FilesystemWatcher - INFO - Copied file to: FILE_20260228_034728_test-file.md
+2026-02-28 03:47:28,641 - FilesystemWatcher - ERROR - Error creating action file: BaseWatcher._create_frontmatter() missing 1 required positional argument: 'item_id'
+2026-02-28 03:47:33,647 - FilesystemWatcher - INFO - New file detected: test-file.md
+2026-02-28 03:47:33,648 - FilesystemWatcher - INFO - Found 1 new item(s)
+2026-02-28 03:47:33,650 - FilesystemWatcher - INFO - Copied file to: FILE_20260228_034733_test-file.md
+2026-02-28 03:47:33,650 - FilesystemWatcher - ERROR - Error creating action file: BaseWatcher._create_frontmatter() missing 1 required positional argument: 'item_id'
+2026-02-28 03:47:38,651 - FilesystemWatcher - INFO - New file detected: test-file.md
+2026-02-28 03:47:38,651 - FilesystemWatcher - INFO - Found 1 new item(s)
+2026-02-28 03:47:38,653 - FilesystemWatcher - INFO - Copied file to: FILE_20260228_034738_test-file.md
+2026-02-28 03:47:38,654 - FilesystemWatcher - ERROR - Error creating action file: BaseWatcher._create_frontmatter() missing 1 required positional argument: 'item_id'
+2026-02-28 03:47:43,660 - FilesystemWatcher - INFO - New file detected: test-file.md
+2026-02-28 03:47:43,660 - FilesystemWatcher - INFO - Found 1 new item(s)
+2026-02-28 03:47:43,663 - FilesystemWatcher - INFO - Copied file to: FILE_20260228_034743_test-file.md
+2026-02-28 03:51:13,858 - FilesystemWatcher - INFO - Loaded 0 processed IDs from state
+2026-02-28 03:51:13,858 - FilesystemWatcher - INFO - Watching folder: Inbox
+2026-02-28 03:51:13,858 - FilesystemWatcher - INFO - Drop folder: Inbox
+2026-02-28 03:51:13,858 - FilesystemWatcher - INFO - Starting FilesystemWatcher
+2026-02-28 03:51:13,858 - FilesystemWatcher - INFO - Vault path: .
+2026-02-28 03:51:13,858 - FilesystemWatcher - INFO - Check interval: 5s
+2026-02-28 03:51:13,858 - FilesystemWatcher - INFO - New file detected: test-file.md
+2026-02-28 03:51:13,858 - FilesystemWatcher - INFO - Found 1 new item(s)
+2026-02-28 03:51:13,858 - FilesystemWatcher - INFO - Copied file to: FILE_20260228_035113_test-file.md
+2026-02-28 03:51:13,858 - FilesystemWatcher - ERROR - Error creating action file: BaseWatcher._create_frontmatter() missing 1 required positional argument: 'item_id'
+2026-02-28 03:51:18,864 - FilesystemWatcher - INFO - New file detected: test-file.md
+2026-02-28 03:51:18,864 - FilesystemWatcher - INFO - Found 1 new item(s)
+2026-02-28 03:51:18,864 - FilesystemWatcher - INFO - Copied file to: FILE_20260228_035118_test-file.md
+2026-02-28 03:51:18,864 - FilesystemWatcher - ERROR - Error creating action file: BaseWatcher._create_frontmatter() missing 1 required positional argument: 'item_id'
+2026-02-28 03:51:23,878 - FilesystemWatcher - INFO - New file detected: test-file.md
+2026-02-28 03:51:23,878 - FilesystemWatcher - INFO - Found 1 new item(s)
+2026-02-28 03:51:23,878 - FilesystemWatcher - INFO - Copied file to: FILE_20260228_035123_test-file.md
+2026-02-28 03:51:23,878 - FilesystemWatcher - ERROR - Error creating action file: BaseWatcher._create_frontmatter() missing 1 required positional argument: 'item_id'
+2026-02-28 03:51:28,891 - FilesystemWatcher - INFO - New file detected: test-file.md
+2026-02-28 03:51:28,892 - FilesystemWatcher - INFO - Found 1 new item(s)
+2026-02-28 03:51:28,909 - FilesystemWatcher - INFO - Copied file to: FILE_20260228_035128_test-file.md
+2026-02-28 03:51:28,910 - FilesystemWatcher - ERROR - Error creating action file: BaseWatcher._create_frontmatter() missing 1 required positional argument: 'item_id'
+2026-02-28 03:51:33,912 - FilesystemWatcher - INFO - New file detected: test-file.md
+2026-02-28 03:51:33,912 - FilesystemWatcher - INFO - Found 1 new item(s)
+2026-02-28 03:51:33,912 - FilesystemWatcher - INFO - Copied file to: FILE_20260228_035133_test-file.md
+2026-02-28 03:51:33,912 - FilesystemWatcher - ERROR - Error creating action file: BaseWatcher._create_frontmatter() missing 1 required positional argument: 'item_id'
+2026-02-28 03:51:38,918 - FilesystemWatcher - INFO - New file detected: test-file.md
+2026-02-28 03:51:38,918 - FilesystemWatcher - INFO - Found 1 new item(s)
+2026-02-28 03:51:38,918 - FilesystemWatcher - INFO - Copied file to: FILE_20260228_035138_test-file.md
+2026-02-28 03:51:38,918 - FilesystemWatcher - ERROR - Error creating action file: BaseWatcher._create_frontmatter() missing 1 required positional argument: 'item_id'
+2026-02-28 03:51:43,934 - FilesystemWatcher - INFO - New file detected: test-file.md
+2026-02-28 03:51:43,934 - FilesystemWatcher - INFO - Found 1 new item(s)
+2026-02-28 03:51:43,934 - FilesystemWatcher - INFO - Copied file to: FILE_20260228_035143_test-file.md
+2026-02-28 03:51:43,934 - FilesystemWatcher - ERROR - Error creating action file: BaseWatcher._create_frontmatter() missing 1 required positional argument: 'item_id'
+2026-02-28 03:51:48,941 - FilesystemWatcher - INFO - New file detected: test-file.md
+2026-02-28 03:51:48,941 - FilesystemWatcher - INFO - Found 1 new item(s)
+2026-02-28 03:51:48,941 - FilesystemWatcher - INFO - Copied file to: FILE_20260228_035148_test-file.md
+2026-02-28 03:51:48,941 - FilesystemWatcher - ERROR - Error creating action file: BaseWatcher._create_frontmatter() missing 1 required positional argument: 'item_id'
+2026-02-28 03:51:53,945 - FilesystemWatcher - INFO - New file detected: test-file.md
+2026-02-28 03:51:53,945 - FilesystemWatcher - INFO - Found 1 new item(s)
+2026-02-28 03:51:53,945 - FilesystemWatcher - INFO - Copied file to: FILE_20260228_035153_test-file.md
+2026-02-28 03:57:59,454 - FilesystemWatcher - INFO - Loaded 0 processed IDs from state
+2026-02-28 03:57:59,454 - FilesystemWatcher - INFO - Watching folder: Inbox
+2026-02-28 03:57:59,454 - FilesystemWatcher - INFO - Drop folder: Inbox
+2026-02-28 03:57:59,454 - FilesystemWatcher - INFO - Starting FilesystemWatcher
+2026-02-28 03:57:59,454 - FilesystemWatcher - INFO - Vault path: .
+2026-02-28 03:57:59,454 - FilesystemWatcher - INFO - Check interval: 5s
+2026-02-28 03:57:59,454 - FilesystemWatcher - INFO - New file detected: test-file.md
+2026-02-28 03:57:59,454 - FilesystemWatcher - INFO - Found 1 new item(s)
+2026-02-28 03:57:59,454 - FilesystemWatcher - INFO - Copied file to: FILE_20260228_035759_test-file.md
+2026-02-28 03:57:59,454 - FilesystemWatcher - ERROR - Error creating action file: BaseWatcher._create_frontmatter() missing 1 required positional argument: 'item_id'
+2026-02-28 03:58:04,472 - FilesystemWatcher - INFO - New file detected: test-file.md
+2026-02-28 03:58:04,473 - FilesystemWatcher - INFO - Found 1 new item(s)
+2026-02-28 03:58:04,583 - FilesystemWatcher - INFO - Copied file to: FILE_20260228_035804_test-file.md
+2026-02-28 03:58:04,584 - FilesystemWatcher - ERROR - Error creating action file: BaseWatcher._create_frontmatter() missing 1 required positional argument: 'item_id'
+2026-02-28 03:58:09,589 - FilesystemWatcher - INFO - New file detected: test-file.md
+2026-02-28 03:58:09,589 - FilesystemWatcher - INFO - Found 1 new item(s)
+2026-02-28 03:58:09,589 - FilesystemWatcher - INFO - Copied file to: FILE_20260228_035809_test-file.md
+2026-02-28 03:58:09,589 - FilesystemWatcher - ERROR - Error creating action file: BaseWatcher._create_frontmatter() missing 1 required positional argument: 'item_id'
+2026-02-28 03:58:14,603 - FilesystemWatcher - INFO - New file detected: test-file.md
+2026-02-28 03:58:14,604 - FilesystemWatcher - INFO - Found 1 new item(s)
+2026-02-28 03:58:14,611 - FilesystemWatcher - INFO - Copied file to: FILE_20260228_035814_test-file.md
+2026-02-28 03:58:14,612 - FilesystemWatcher - ERROR - Error creating action file: BaseWatcher._create_frontmatter() missing 1 required positional argument: 'item_id'
+2026-02-28 03:58:19,617 - FilesystemWatcher - INFO - New file detected: test-file.md
+2026-02-28 03:58:19,617 - FilesystemWatcher - INFO - Found 1 new item(s)
+2026-02-28 03:58:19,621 - FilesystemWatcher - INFO - Copied file to: FILE_20260228_035819_test-file.md
+2026-02-28 03:58:19,621 - FilesystemWatcher - ERROR - Error creating action file: BaseWatcher._create_frontmatter() missing 1 required positional argument: 'item_id'
+2026-02-28 03:58:24,626 - FilesystemWatcher - INFO - New file detected: test-file.md
+2026-02-28 03:58:24,627 - FilesystemWatcher - INFO - Found 1 new item(s)
+2026-02-28 03:58:24,740 - FilesystemWatcher - INFO - Copied file to: FILE_20260228_035824_test-file.md
+2026-02-28 03:58:24,741 - FilesystemWatcher - ERROR - Error creating action file: BaseWatcher._create_frontmatter() missing 1 required positional argument: 'item_id'
+2026-02-28 03:58:29,746 - FilesystemWatcher - INFO - New file detected: test-file.md
+2026-02-28 03:58:29,746 - FilesystemWatcher - INFO - Found 1 new item(s)
+2026-02-28 03:58:29,752 - FilesystemWatcher - INFO - Copied file to: FILE_20260228_035829_test-file.md
+2026-02-28 03:58:29,752 - FilesystemWatcher - ERROR - Error creating action file: BaseWatcher._create_frontmatter() missing 1 required positional argument: 'item_id'
+2026-02-28 03:58:34,757 - FilesystemWatcher - INFO - New file detected: test-file.md
+2026-02-28 03:58:34,758 - FilesystemWatcher - INFO - Found 1 new item(s)
+2026-02-28 03:58:34,762 - FilesystemWatcher - INFO - Copied file to: FILE_20260228_035834_test-file.md
+2026-02-28 03:58:34,763 - FilesystemWatcher - ERROR - Error creating action file: BaseWatcher._create_frontmatter() missing 1 required positional argument: 'item_id'
+2026-02-28 03:58:39,767 - FilesystemWatcher - INFO - New file detected: test-file.md
+2026-02-28 03:58:39,767 - FilesystemWatcher - INFO - Found 1 new item(s)
+2026-02-28 03:58:39,774 - FilesystemWatcher - INFO - Copied file to: FILE_20260228_035839_test-file.md
+2026-02-28 04:16:08,156 - FilesystemWatcher - INFO - Loaded 0 processed IDs from state
+2026-02-28 04:16:08,157 - FilesystemWatcher - INFO - Watching folder: Inbox
+2026-02-28 04:16:08,157 - FilesystemWatcher - INFO - Drop folder: Inbox
+2026-02-28 04:16:08,157 - FilesystemWatcher - INFO - Starting FilesystemWatcher
+2026-02-28 04:16:08,157 - FilesystemWatcher - INFO - Vault path: .
+2026-02-28 04:16:08,157 - FilesystemWatcher - INFO - Check interval: 5s
+2026-02-28 04:16:08,160 - FilesystemWatcher - INFO - New file detected: task.txt
+2026-02-28 04:16:08,160 - FilesystemWatcher - INFO - New file detected: test-file.md
+2026-02-28 04:16:08,160 - FilesystemWatcher - INFO - Found 2 new item(s)
+2026-02-28 04:16:08,162 - FilesystemWatcher - INFO - Copied file to: FILE_20260228_041608_task.txt
+2026-02-28 04:16:08,162 - FilesystemWatcher - ERROR - Error creating action file: BaseWatcher._create_frontmatter() missing 1 required positional argument: 'item_id'
+2026-02-28 04:16:08,164 - FilesystemWatcher - INFO - Copied file to: FILE_20260228_041608_test-file.md
+2026-02-28 04:16:08,164 - FilesystemWatcher - ERROR - Error creating action file: BaseWatcher._create_frontmatter() missing 1 required positional argument: 'item_id'
+2026-02-28 04:16:13,167 - FilesystemWatcher - INFO - New file detected: task.txt
+2026-02-28 04:16:13,169 - FilesystemWatcher - INFO - New file detected: test-file.md
+2026-02-28 04:16:13,170 - FilesystemWatcher - INFO - Found 2 new item(s)
+2026-02-28 04:16:13,175 - FilesystemWatcher - INFO - Copied file to: FILE_20260228_041613_task.txt
+2026-02-28 04:16:13,175 - FilesystemWatcher - ERROR - Error creating action file: BaseWatcher._create_frontmatter() missing 1 required positional argument: 'item_id'
+2026-02-28 04:16:13,182 - FilesystemWatcher - INFO - Copied file to: FILE_20260228_041613_test-file.md
+2026-02-28 04:16:13,182 - FilesystemWatcher - ERROR - Error creating action file: BaseWatcher._create_frontmatter() missing 1 required positional argument: 'item_id'
+2026-02-28 04:16:18,185 - FilesystemWatcher - INFO - New file detected: task.txt
+2026-02-28 04:16:18,186 - FilesystemWatcher - INFO - New file detected: test-file.md
+2026-02-28 04:16:18,187 - FilesystemWatcher - INFO - Found 2 new item(s)
+2026-02-28 04:16:18,192 - FilesystemWatcher - INFO - Copied file to: FILE_20260228_041618_task.txt
+2026-02-28 04:16:18,192 - FilesystemWatcher - ERROR - Error creating action file: BaseWatcher._create_frontmatter() missing 1 required positional argument: 'item_id'
+2026-02-28 04:16:18,198 - FilesystemWatcher - INFO - Copied file to: FILE_20260228_041618_test-file.md
+2026-02-28 04:16:18,198 - FilesystemWatcher - ERROR - Error creating action file: BaseWatcher._create_frontmatter() missing 1 required positional argument: 'item_id'
+2026-02-28 04:16:23,200 - FilesystemWatcher - INFO - New file detected: task.txt
+2026-02-28 04:16:23,200 - FilesystemWatcher - INFO - New file detected: test-file.md
+2026-02-28 04:16:23,200 - FilesystemWatcher - INFO - Found 2 new item(s)
+2026-02-28 04:16:23,200 - FilesystemWatcher - INFO - Copied file to: FILE_20260228_041623_task.txt
+2026-02-28 04:16:23,200 - FilesystemWatcher - ERROR - Error creating action file: BaseWatcher._create_frontmatter() missing 1 required positional argument: 'item_id'
+2026-02-28 04:16:23,215 - FilesystemWatcher - INFO - Copied file to: FILE_20260228_041623_test-file.md
+2026-02-28 04:16:23,215 - FilesystemWatcher - ERROR - Error creating action file: BaseWatcher._create_frontmatter() missing 1 required positional argument: 'item_id'
+2026-02-28 04:16:28,219 - FilesystemWatcher - INFO - New file detected: task.txt
+2026-02-28 04:16:28,219 - FilesystemWatcher - INFO - New file detected: test-file.md
+2026-02-28 04:16:28,219 - FilesystemWatcher - INFO - Found 2 new item(s)
+2026-02-28 04:16:28,219 - FilesystemWatcher - INFO - Copied file to: FILE_20260228_041628_task.txt
+2026-02-28 04:16:28,219 - FilesystemWatcher - ERROR - Error creating action file: BaseWatcher._create_frontmatter() missing 1 required positional argument: 'item_id'
+2026-02-28 04:16:28,235 - FilesystemWatcher - INFO - Copied file to: FILE_20260228_041628_test-file.md

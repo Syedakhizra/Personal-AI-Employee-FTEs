@@ -1,0 +1,227 @@
+2026-02-28 03:23:57,750 - Orchestrator - WARNING - Claude Code not found in PATH
+2026-02-28 03:23:57,750 - Orchestrator - INFO - Orchestrator initialized for vault: C:\Users\Kashan Shah\OneDrive\Pictures\Documents\GitHub\Personal-AI-Employee-FTEs\AI_Employee_Vault
+2026-02-28 03:23:57,750 - Orchestrator - INFO - Claude Code available: False
+2026-02-28 03:24:29,305 - Orchestrator - WARNING - Claude Code not found in PATH
+2026-02-28 03:24:29,305 - Orchestrator - INFO - Orchestrator initialized for vault: C:\Users\Kashan Shah\OneDrive\Pictures\Documents\GitHub\Personal-AI-Employee-FTEs\AI_Employee_Vault
+2026-02-28 03:24:29,305 - Orchestrator - INFO - Claude Code available: False
+2026-02-28 03:24:29,305 - Orchestrator - INFO - Running single processing cycle
+2026-02-28 03:24:29,305 - Orchestrator - ERROR - Error updating dashboard: 'charmap' codec can't decode byte 0x8f in position 916: character maps to <undefined>
+2026-02-28 03:25:23,253 - Orchestrator - WARNING - Claude Code not found in PATH
+2026-02-28 03:25:23,253 - Orchestrator - INFO - Orchestrator initialized for vault: C:\Users\Kashan Shah\OneDrive\Pictures\Documents\GitHub\Personal-AI-Employee-FTEs\AI_Employee_Vault
+2026-02-28 03:25:23,253 - Orchestrator - INFO - Claude Code available: False
+2026-02-28 03:25:23,269 - Orchestrator - INFO - Running single processing cycle
+2026-02-28 03:25:23,269 - Orchestrator - INFO - Dashboard updated - Pending: 0, Plans: 0, Approval: 0
+2026-02-28 03:26:54,535 - Orchestrator - WARNING - Claude Code not found in PATH
+2026-02-28 03:26:54,535 - Orchestrator - INFO - Orchestrator initialized for vault: C:\Users\Kashan Shah\OneDrive\Pictures\Documents\GitHub\Personal-AI-Employee-FTEs\AI_Employee_Vault
+2026-02-28 03:26:54,551 - Orchestrator - INFO - Claude Code available: False
+2026-02-28 03:26:54,551 - Orchestrator - INFO - Running single processing cycle
+2026-02-28 03:26:54,551 - Orchestrator - INFO - Dashboard updated - Pending: 1, Plans: 0, Approval: 0
+2026-02-28 03:26:54,551 - Orchestrator - INFO - Processing 1 item(s) in Needs_Action
+2026-02-28 03:26:54,551 - Orchestrator - INFO - Created plan for: TASK_Client_A_Proposal.md
+2026-02-28 03:32:05,787 - Orchestrator - WARNING - Claude Code not found in PATH
+2026-02-28 03:32:05,787 - Orchestrator - INFO - Orchestrator initialized for vault: .
+2026-02-28 03:32:05,788 - Orchestrator - INFO - Claude Code available: False
+2026-02-28 03:32:05,788 - Orchestrator - INFO - Starting orchestrator main loop
+2026-02-28 03:32:05,788 - Orchestrator - INFO - Check interval: 30s
+2026-02-28 03:32:05,812 - Orchestrator - INFO - Started watcher: filesystem_watcher (PID: 10552)
+2026-02-28 03:32:05,814 - Orchestrator - INFO - Dashboard updated - Pending: 1, Plans: 1, Approval: 0
+2026-02-28 03:32:05,818 - Orchestrator - INFO - Processing 1 item(s) in Needs_Action
+2026-02-28 03:32:05,828 - Orchestrator - INFO - Created plan for: TASK_Client_A_Proposal.md
+2026-02-28 03:32:35,831 - Orchestrator - INFO - Dashboard updated - Pending: 1, Plans: 1, Approval: 0
+2026-02-28 03:32:35,831 - Orchestrator - INFO - Processing 1 item(s) in Needs_Action
+2026-02-28 03:32:35,846 - Orchestrator - INFO - Created plan for: TASK_Client_A_Proposal.md
+2026-02-28 03:33:05,852 - Orchestrator - INFO - Dashboard updated - Pending: 1, Plans: 1, Approval: 0
+2026-02-28 03:33:05,855 - Orchestrator - INFO - Processing 1 item(s) in Needs_Action
+2026-02-28 03:33:05,859 - Orchestrator - INFO - Created plan for: TASK_Client_A_Proposal.md
+2026-02-28 03:33:35,863 - Orchestrator - INFO - Dashboard updated - Pending: 1, Plans: 1, Approval: 0
+2026-02-28 03:33:35,864 - Orchestrator - INFO - Processing 1 item(s) in Needs_Action
+2026-02-28 03:33:35,867 - Orchestrator - INFO - Created plan for: TASK_Client_A_Proposal.md
+2026-02-28 03:34:05,876 - Orchestrator - INFO - Dashboard updated - Pending: 1, Plans: 1, Approval: 0
+2026-02-28 03:34:05,884 - Orchestrator - INFO - Processing 1 item(s) in Needs_Action
+2026-02-28 03:34:05,895 - Orchestrator - INFO - Created plan for: TASK_Client_A_Proposal.md
+2026-02-28 03:34:35,906 - Orchestrator - INFO - Dashboard updated - Pending: 1, Plans: 1, Approval: 0
+2026-02-28 03:34:35,912 - Orchestrator - INFO - Processing 1 item(s) in Needs_Action
+2026-02-28 03:34:35,915 - Orchestrator - INFO - Created plan for: TASK_Client_A_Proposal.md
+2026-02-28 03:35:05,922 - Orchestrator - INFO - Dashboard updated - Pending: 1, Plans: 1, Approval: 0
+2026-02-28 03:35:05,931 - Orchestrator - INFO - Processing 1 item(s) in Needs_Action
+2026-02-28 03:35:05,934 - Orchestrator - INFO - Created plan for: TASK_Client_A_Proposal.md
+2026-02-28 03:35:35,944 - Orchestrator - INFO - Dashboard updated - Pending: 1, Plans: 1, Approval: 0
+2026-02-28 03:35:35,951 - Orchestrator - INFO - Processing 1 item(s) in Needs_Action
+2026-02-28 03:35:35,956 - Orchestrator - INFO - Created plan for: TASK_Client_A_Proposal.md
+2026-02-28 03:36:05,961 - Orchestrator - INFO - Dashboard updated - Pending: 1, Plans: 1, Approval: 0
+2026-02-28 03:36:05,961 - Orchestrator - INFO - Processing 1 item(s) in Needs_Action
+2026-02-28 03:36:05,976 - Orchestrator - INFO - Created plan for: TASK_Client_A_Proposal.md
+2026-02-28 03:36:24,461 - Orchestrator - INFO - Orchestrator stopped by user
+2026-02-28 03:36:24,461 - Orchestrator - INFO - Stopping orchestrator...
+2026-02-28 03:36:24,476 - Orchestrator - INFO - Stopped watcher: filesystem_watcher
+2026-02-28 03:36:24,492 - Orchestrator - INFO - Dashboard updated - Pending: 1, Plans: 1, Approval: 0
+2026-02-28 03:36:24,492 - Orchestrator - INFO - Orchestrator stopped
+2026-02-28 03:46:53,291 - Orchestrator - WARNING - Claude Code not found in PATH
+2026-02-28 03:46:53,306 - Orchestrator - INFO - Orchestrator initialized for vault: .
+2026-02-28 03:46:53,306 - Orchestrator - INFO - Claude Code available: False
+2026-02-28 03:46:53,306 - Orchestrator - INFO - Starting orchestrator main loop
+2026-02-28 03:46:53,306 - Orchestrator - INFO - Check interval: 30s
+2026-02-28 03:46:53,338 - Orchestrator - INFO - Started watcher: filesystem_watcher (PID: 8164)
+2026-02-28 03:46:53,338 - Orchestrator - INFO - Dashboard updated - Pending: 1, Plans: 1, Approval: 0
+2026-02-28 03:46:53,338 - Orchestrator - INFO - Processing 1 item(s) in Needs_Action
+2026-02-28 03:46:53,353 - Orchestrator - INFO - Created plan for: TASK_Client_A_Proposal.md
+2026-02-28 03:47:23,362 - Orchestrator - INFO - Dashboard updated - Pending: 5, Plans: 1, Approval: 0
+2026-02-28 03:47:23,362 - Orchestrator - INFO - Processing 5 item(s) in Needs_Action
+2026-02-28 03:47:23,362 - Orchestrator - INFO - Created plan for: FILE_20260228_034703_test-file.md
+2026-02-28 03:47:23,378 - Orchestrator - INFO - Created plan for: FILE_20260228_034708_test-file.md
+2026-02-28 03:47:23,378 - Orchestrator - INFO - Created plan for: FILE_20260228_034713_test-file.md
+2026-02-28 03:47:23,378 - Orchestrator - INFO - Created plan for: FILE_20260228_034718_test-file.md
+2026-02-28 03:47:23,378 - Orchestrator - INFO - Created plan for: TASK_Client_A_Proposal.md
+2026-02-28 03:47:53,395 - Orchestrator - INFO - Dashboard updated - Pending: 10, Plans: 5, Approval: 0
+2026-02-28 03:47:53,400 - Orchestrator - INFO - Processing 10 item(s) in Needs_Action
+2026-02-28 03:47:53,416 - Orchestrator - INFO - Created plan for: FILE_20260228_034703_test-file.md
+2026-02-28 03:47:53,449 - Orchestrator - INFO - Created plan for: FILE_20260228_034708_test-file.md
+2026-02-28 03:47:53,519 - Orchestrator - INFO - Created plan for: FILE_20260228_034713_test-file.md
+2026-02-28 03:47:53,599 - Orchestrator - INFO - Created plan for: FILE_20260228_034718_test-file.md
+2026-02-28 03:47:53,635 - Orchestrator - INFO - Created plan for: FILE_20260228_034723_test-file.md
+2026-02-28 03:47:53,696 - Orchestrator - INFO - Created plan for: FILE_20260228_034728_test-file.md
+2026-02-28 03:47:53,744 - Orchestrator - INFO - Created plan for: FILE_20260228_034733_test-file.md
+2026-02-28 03:47:53,753 - Orchestrator - INFO - Created plan for: FILE_20260228_034738_test-file.md
+2026-02-28 03:47:53,785 - Orchestrator - INFO - Created plan for: FILE_20260228_034743_test-file.md
+2026-02-28 03:47:53,827 - Orchestrator - INFO - Created plan for: TASK_Client_A_Proposal.md
+2026-02-28 03:48:23,840 - Orchestrator - INFO - Dashboard updated - Pending: 10, Plans: 10, Approval: 0
+2026-02-28 03:48:23,841 - Orchestrator - INFO - Processing 10 item(s) in Needs_Action
+2026-02-28 03:48:23,844 - Orchestrator - INFO - Created plan for: FILE_20260228_034703_test-file.md
+2026-02-28 03:48:23,846 - Orchestrator - INFO - Created plan for: FILE_20260228_034708_test-file.md
+2026-02-28 03:48:23,848 - Orchestrator - INFO - Created plan for: FILE_20260228_034713_test-file.md
+2026-02-28 03:48:23,853 - Orchestrator - INFO - Created plan for: FILE_20260228_034718_test-file.md
+2026-02-28 03:48:23,855 - Orchestrator - INFO - Created plan for: FILE_20260228_034723_test-file.md
+2026-02-28 03:48:23,860 - Orchestrator - INFO - Created plan for: FILE_20260228_034728_test-file.md
+2026-02-28 03:48:23,863 - Orchestrator - INFO - Created plan for: FILE_20260228_034733_test-file.md
+2026-02-28 03:48:23,866 - Orchestrator - INFO - Created plan for: FILE_20260228_034738_test-file.md
+2026-02-28 03:48:23,869 - Orchestrator - INFO - Created plan for: FILE_20260228_034743_test-file.md
+2026-02-28 03:48:23,875 - Orchestrator - INFO - Created plan for: TASK_Client_A_Proposal.md
+2026-02-28 03:48:53,877 - Orchestrator - INFO - Dashboard updated - Pending: 10, Plans: 10, Approval: 0
+2026-02-28 03:48:53,877 - Orchestrator - INFO - Processing 10 item(s) in Needs_Action
+2026-02-28 03:48:53,892 - Orchestrator - INFO - Created plan for: FILE_20260228_034703_test-file.md
+2026-02-28 03:48:53,908 - Orchestrator - INFO - Created plan for: FILE_20260228_034708_test-file.md
+2026-02-28 03:48:53,924 - Orchestrator - INFO - Created plan for: FILE_20260228_034713_test-file.md
+2026-02-28 03:48:53,939 - Orchestrator - INFO - Created plan for: FILE_20260228_034718_test-file.md
+2026-02-28 03:48:53,939 - Orchestrator - INFO - Created plan for: FILE_20260228_034723_test-file.md
+2026-02-28 03:48:53,939 - Orchestrator - INFO - Created plan for: FILE_20260228_034728_test-file.md
+2026-02-28 03:48:53,955 - Orchestrator - INFO - Created plan for: FILE_20260228_034733_test-file.md
+2026-02-28 03:48:53,955 - Orchestrator - INFO - Created plan for: FILE_20260228_034738_test-file.md
+2026-02-28 03:48:53,955 - Orchestrator - INFO - Created plan for: FILE_20260228_034743_test-file.md
+2026-02-28 03:48:53,971 - Orchestrator - INFO - Created plan for: TASK_Client_A_Proposal.md
+2026-02-28 03:49:23,977 - Orchestrator - INFO - Dashboard updated - Pending: 10, Plans: 10, Approval: 0
+2026-02-28 03:49:23,977 - Orchestrator - INFO - Processing 10 item(s) in Needs_Action
+2026-02-28 03:49:23,993 - Orchestrator - INFO - Created plan for: FILE_20260228_034703_test-file.md
+2026-02-28 03:49:24,009 - Orchestrator - INFO - Created plan for: FILE_20260228_034708_test-file.md
+2026-02-28 03:49:24,009 - Orchestrator - INFO - Created plan for: FILE_20260228_034713_test-file.md
+2026-02-28 03:49:24,009 - Orchestrator - INFO - Created plan for: FILE_20260228_034718_test-file.md
+2026-02-28 03:49:24,009 - Orchestrator - INFO - Created plan for: FILE_20260228_034723_test-file.md
+2026-02-28 03:49:24,009 - Orchestrator - INFO - Created plan for: FILE_20260228_034728_test-file.md
+2026-02-28 03:49:24,024 - Orchestrator - INFO - Created plan for: FILE_20260228_034733_test-file.md
+2026-02-28 03:49:24,024 - Orchestrator - INFO - Created plan for: FILE_20260228_034738_test-file.md
+2026-02-28 03:49:24,024 - Orchestrator - INFO - Created plan for: FILE_20260228_034743_test-file.md
+2026-02-28 03:49:24,024 - Orchestrator - INFO - Created plan for: TASK_Client_A_Proposal.md
+2026-02-28 03:49:42,050 - Orchestrator - INFO - Orchestrator stopped by user
+2026-02-28 03:49:42,050 - Orchestrator - INFO - Stopping orchestrator...
+2026-02-28 03:49:42,128 - Orchestrator - INFO - Stopped watcher: filesystem_watcher
+2026-02-28 03:49:42,144 - Orchestrator - INFO - Dashboard updated - Pending: 10, Plans: 10, Approval: 0
+2026-02-28 03:49:42,144 - Orchestrator - INFO - Orchestrator stopped
+2026-02-28 03:50:51,950 - Orchestrator - WARNING - Claude Code not found in PATH
+2026-02-28 03:50:51,950 - Orchestrator - INFO - Orchestrator initialized for vault: C:\Users\Kashan Shah\OneDrive\Pictures\Documents\GitHub\Personal-AI-Employee-FTEs\AI_Employee_Vault
+2026-02-28 03:50:51,950 - Orchestrator - INFO - Claude Code available: False
+2026-02-28 03:51:13,670 - Orchestrator - WARNING - Claude Code not found in PATH
+2026-02-28 03:51:13,670 - Orchestrator - INFO - Orchestrator initialized for vault: .
+2026-02-28 03:51:13,670 - Orchestrator - INFO - Claude Code available: False
+2026-02-28 03:51:13,670 - Orchestrator - INFO - Starting orchestrator main loop
+2026-02-28 03:51:13,670 - Orchestrator - INFO - Check interval: 30s
+2026-02-28 03:51:13,701 - Orchestrator - INFO - Started watcher: filesystem_watcher (PID: 1312)
+2026-02-28 03:51:13,701 - Orchestrator - INFO - Dashboard updated - Pending: 1, Plans: 1, Approval: 0
+2026-02-28 03:51:43,713 - Orchestrator - INFO - Dashboard updated - Pending: 7, Plans: 1, Approval: 0
+2026-02-28 03:51:43,713 - Orchestrator - INFO - Processing 6 new item(s) in Needs_Action
+2026-02-28 03:51:43,729 - Orchestrator - INFO - Created plan for: FILE_20260228_035113_test-file.md
+2026-02-28 03:51:43,729 - Orchestrator - INFO - Created plan for: FILE_20260228_035118_test-file.md
+2026-02-28 03:51:43,729 - Orchestrator - INFO - Created plan for: FILE_20260228_035123_test-file.md
+2026-02-28 03:51:43,744 - Orchestrator - INFO - Created plan for: FILE_20260228_035128_test-file.md
+2026-02-28 03:51:43,744 - Orchestrator - INFO - Created plan for: FILE_20260228_035133_test-file.md
+2026-02-28 03:51:43,744 - Orchestrator - INFO - Created plan for: FILE_20260228_035138_test-file.md
+2026-02-28 03:52:13,751 - Orchestrator - INFO - Dashboard updated - Pending: 10, Plans: 7, Approval: 0
+2026-02-28 03:52:13,766 - Orchestrator - INFO - Processing 3 new item(s) in Needs_Action
+2026-02-28 03:52:13,766 - Orchestrator - INFO - Created plan for: FILE_20260228_035143_test-file.md
+2026-02-28 03:52:13,766 - Orchestrator - INFO - Created plan for: FILE_20260228_035148_test-file.md
+2026-02-28 03:52:13,766 - Orchestrator - INFO - Created plan for: FILE_20260228_035153_test-file.md
+2026-02-28 03:52:43,788 - Orchestrator - INFO - Dashboard updated - Pending: 10, Plans: 10, Approval: 0
+2026-02-28 03:53:13,809 - Orchestrator - INFO - Dashboard updated - Pending: 10, Plans: 10, Approval: 0
+2026-02-28 03:53:43,833 - Orchestrator - INFO - Dashboard updated - Pending: 10, Plans: 10, Approval: 0
+2026-02-28 03:54:13,843 - Orchestrator - INFO - Dashboard updated - Pending: 1, Plans: 10, Approval: 0
+2026-02-28 03:54:36,312 - Orchestrator - INFO - Orchestrator stopped by user
+2026-02-28 03:54:36,312 - Orchestrator - INFO - Stopping orchestrator...
+2026-02-28 03:54:36,328 - Orchestrator - INFO - Stopped watcher: filesystem_watcher
+2026-02-28 03:54:36,328 - Orchestrator - INFO - Dashboard updated - Pending: 1, Plans: 10, Approval: 0
+2026-02-28 03:54:36,328 - Orchestrator - INFO - Orchestrator stopped
+2026-02-28 03:55:41,529 - Orchestrator - WARNING - Claude Code not found in PATH
+2026-02-28 03:55:41,529 - Orchestrator - INFO - Orchestrator initialized for vault: .
+2026-02-28 03:55:41,529 - Orchestrator - INFO - Claude Code available: False
+2026-02-28 03:55:41,529 - Orchestrator - INFO - Running single processing cycle
+2026-02-28 03:55:41,529 - Orchestrator - INFO - Dashboard updated - Pending: 1, Plans: 10, Approval: 0
+2026-02-28 03:56:22,377 - Orchestrator - WARNING - Claude Code not found in PATH
+2026-02-28 03:56:22,377 - Orchestrator - INFO - Orchestrator initialized for vault: .
+2026-02-28 03:56:22,377 - Orchestrator - INFO - Claude Code available: False
+2026-02-28 03:56:22,377 - Orchestrator - INFO - Running single processing cycle
+2026-02-28 03:56:22,377 - Orchestrator - INFO - Dashboard updated - Pending: 1, Plans: 10, Approval: 0
+2026-02-28 03:57:58,938 - Orchestrator - WARNING - Claude Code not found in PATH
+2026-02-28 03:57:58,938 - Orchestrator - INFO - Orchestrator initialized for vault: .
+2026-02-28 03:57:58,938 - Orchestrator - INFO - Claude Code available: False
+2026-02-28 03:57:58,938 - Orchestrator - INFO - Starting orchestrator main loop
+2026-02-28 03:57:58,938 - Orchestrator - INFO - Check interval: 30s
+2026-02-28 03:57:59,220 - Orchestrator - INFO - Started watcher: filesystem_watcher (PID: 6064)
+2026-02-28 03:57:59,235 - Orchestrator - INFO - Dashboard updated - Pending: 1, Plans: 1, Approval: 0
+2026-02-28 03:58:29,243 - Orchestrator - INFO - Dashboard updated - Pending: 7, Plans: 1, Approval: 0
+2026-02-28 03:58:29,254 - Orchestrator - INFO - Processing 6 new item(s) in Needs_Action
+2026-02-28 03:58:29,258 - Orchestrator - INFO - Created plan for: FILE_20260228_035759_test-file.md
+2026-02-28 03:58:29,263 - Orchestrator - INFO - Created plan for: FILE_20260228_035804_test-file.md
+2026-02-28 03:58:29,266 - Orchestrator - INFO - Created plan for: FILE_20260228_035809_test-file.md
+2026-02-28 03:58:29,319 - Orchestrator - INFO - Created plan for: FILE_20260228_035814_test-file.md
+2026-02-28 03:58:29,322 - Orchestrator - INFO - Created plan for: FILE_20260228_035819_test-file.md
+2026-02-28 03:58:29,324 - Orchestrator - INFO - Created plan for: FILE_20260228_035824_test-file.md
+2026-02-28 03:58:50,629 - Orchestrator - INFO - Orchestrator stopped by user
+2026-02-28 03:58:50,629 - Orchestrator - INFO - Stopping orchestrator...
+2026-02-28 03:58:50,692 - Orchestrator - INFO - Stopped watcher: filesystem_watcher
+2026-02-28 03:58:50,692 - Orchestrator - INFO - Dashboard updated - Pending: 10, Plans: 7, Approval: 0
+2026-02-28 03:58:50,692 - Orchestrator - INFO - Orchestrator stopped
+2026-02-28 04:00:37,361 - Orchestrator - WARNING - Claude Code not found in PATH
+2026-02-28 04:00:37,361 - Orchestrator - INFO - Orchestrator initialized for vault: .
+2026-02-28 04:00:37,361 - Orchestrator - INFO - Claude Code available: False
+2026-02-28 04:00:37,361 - Orchestrator - INFO - Running single processing cycle
+2026-02-28 04:00:37,361 - Orchestrator - INFO - Dashboard updated - Pending: 1, Plans: 7, Approval: 0
+2026-02-28 04:00:51,361 - Orchestrator - WARNING - Claude Code not found in PATH
+2026-02-28 04:00:51,361 - Orchestrator - INFO - Orchestrator initialized for vault: .
+2026-02-28 04:00:51,361 - Orchestrator - INFO - Claude Code available: False
+2026-02-28 04:14:53,225 - Orchestrator - WARNING - Qwen Code not found in PATH
+2026-02-28 04:14:53,225 - Orchestrator - INFO - Orchestrator initialized for vault: C:\Users\Kashan Shah\OneDrive\Pictures\Documents\GitHub\Personal-AI-Employee-FTEs\AI_Employee_Vault
+2026-02-28 04:14:53,225 - Orchestrator - INFO - Qwen Code available: False
+2026-02-28 04:15:16,854 - Orchestrator - WARNING - Qwen Code not found in PATH
+2026-02-28 04:15:16,854 - Orchestrator - INFO - Orchestrator initialized for vault: C:\Users\Kashan Shah\OneDrive\Pictures\Documents\GitHub\Personal-AI-Employee-FTEs\AI_Employee_Vault
+2026-02-28 04:15:16,854 - Orchestrator - INFO - Qwen Code available: False
+2026-02-28 04:16:07,908 - Orchestrator - WARNING - Qwen Code not found in PATH
+2026-02-28 04:16:07,908 - Orchestrator - INFO - Orchestrator initialized for vault: .
+2026-02-28 04:16:07,908 - Orchestrator - INFO - Qwen Code available: False
+2026-02-28 04:16:07,908 - Orchestrator - INFO - Starting orchestrator main loop
+2026-02-28 04:16:07,908 - Orchestrator - INFO - Check interval: 30s
+2026-02-28 04:16:07,940 - Orchestrator - INFO - Started watcher: filesystem_watcher (PID: 10608)
+2026-02-28 04:16:07,944 - Orchestrator - INFO - Dashboard updated - Pending: 1, Plans: 1, Approval: 0
+2026-02-28 04:16:37,954 - Orchestrator - INFO - Dashboard updated - Pending: 6, Plans: 1, Approval: 0
+2026-02-28 04:16:37,959 - Orchestrator - INFO - Processing 5 new item(s) in Needs_Action
+2026-02-28 04:16:37,963 - Orchestrator - INFO - Created plan for: FILE_20260228_041608_test-file.md
+2026-02-28 04:16:37,978 - Orchestrator - INFO - Created plan for: FILE_20260228_041613_test-file.md
+2026-02-28 04:16:37,980 - Orchestrator - INFO - Created plan for: FILE_20260228_041618_test-file.md
+2026-02-28 04:16:37,982 - Orchestrator - INFO - Created plan for: FILE_20260228_041623_test-file.md
+2026-02-28 04:16:37,994 - Orchestrator - INFO - Created plan for: FILE_20260228_041628_test-file.md
+2026-02-28 04:17:08,000 - Orchestrator - INFO - Dashboard updated - Pending: 6, Plans: 6, Approval: 0
+2026-02-28 04:17:38,020 - Orchestrator - INFO - Dashboard updated - Pending: 6, Plans: 6, Approval: 0
+2026-02-28 04:18:08,063 - Orchestrator - INFO - Dashboard updated - Pending: 6, Plans: 6, Approval: 0
+2026-02-28 04:18:38,070 - Orchestrator - INFO - Dashboard updated - Pending: 6, Plans: 6, Approval: 0
+2026-02-28 04:19:08,091 - Orchestrator - INFO - Dashboard updated - Pending: 6, Plans: 6, Approval: 0
+2026-02-28 04:19:37,279 - Orchestrator - INFO - Orchestrator stopped by user
+2026-02-28 04:19:37,280 - Orchestrator - INFO - Stopping orchestrator...
+2026-02-28 04:19:37,322 - Orchestrator - INFO - Stopped watcher: filesystem_watcher
+2026-02-28 04:19:37,324 - Orchestrator - INFO - Dashboard updated - Pending: 6, Plans: 6, Approval: 0
+2026-02-28 04:19:37,326 - Orchestrator - INFO - Orchestrator stopped
