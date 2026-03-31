@@ -15,6 +15,10 @@ All watchers follow the same pattern:
 
 import time
 import logging
+<<<<<<< HEAD
+=======
+import os
+>>>>>>> edbe72d (silver tier)
 from pathlib import Path
 from abc import ABC, abstractmethod
 from datetime import datetime
@@ -90,9 +94,21 @@ class BaseWatcher(ABC):
         """Save processed IDs to state file."""
         try:
             content = '\n'.join(str(id) for id in self.processed_ids)
+<<<<<<< HEAD
             self.state_file.write_text(content)
         except Exception as e:
             self.logger.error(f"Could not save state file: {e}")
+=======
+            with open(self.state_file, 'w', encoding='utf-8') as f:
+                f.write(content)
+                f.flush()  # Force flush to disk
+                os.fsync(f.fileno())  # Ensure data is written to disk
+            self.logger.info(f"Saved {len(self.processed_ids)} processed IDs to state file")
+        except Exception as e:
+            self.logger.error(f"Could not save state file: {e}")
+            self.logger.error(f"State file path: {self.state_file}")
+            self.logger.error(f"Processed IDs count: {len(self.processed_ids)}")
+>>>>>>> edbe72d (silver tier)
     
     @abstractmethod
     def check_for_updates(self) -> list:
@@ -166,6 +182,7 @@ priority: normal
                         try:
                             filepath = self.create_action_file(item)
                             self.logger.info(f"Created action file: {filepath.name}")
+<<<<<<< HEAD
                             
                             # Track as processed
                             item_id = item.get('id', str(filepath))
@@ -175,6 +192,20 @@ priority: normal
                             self.logger.error(f"Error creating action file: {e}")
                     
                     # Save state every cycle
+=======
+
+                            # Track as processed
+                            item_id = item.get('id', str(filepath))
+                            self.processed_ids.add(item_id)
+
+                            # Save state immediately after each file
+                            self._save_state()
+
+                        except Exception as e:
+                            self.logger.error(f"Error creating action file: {e}")
+
+                    # Also save state at end of cycle
+>>>>>>> edbe72d (silver tier)
                     self._save_state()
                     
                 except Exception as e:

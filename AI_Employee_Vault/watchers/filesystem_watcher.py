@@ -134,7 +134,12 @@ class FilesystemWatcher(BaseWatcher):
                         self.logger.info(f"New file detected: {filepath.name}")
                         new_files.append({
                             'path': filepath,
+<<<<<<< HEAD
                             'hash': file_hash
+=======
+                            'hash': file_hash,
+                            'id': file_hash  # Add id field for base class
+>>>>>>> edbe72d (silver tier)
                         })
         except Exception as e:
             self.logger.error(f"Error scanning folder: {e}")
@@ -199,7 +204,11 @@ class FilesystemWatcher(BaseWatcher):
         # Create metadata markdown file
         content = self._create_frontmatter(
             item_type="file_drop",
+<<<<<<< HEAD
             id=file_hash,
+=======
+            item_id=file_hash,
+>>>>>>> edbe72d (silver tier)
             original_name=f'"{file_info["name"]}"',
             file_size=file_info['size'],
             file_type=f'"{file_info["extension"]}"',

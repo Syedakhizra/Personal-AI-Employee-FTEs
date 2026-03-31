@@ -91,11 +91,20 @@ class Orchestrator:
     def _check_qwen_code(self) -> bool:
         """Check if Qwen Code is installed and available."""
         try:
+<<<<<<< HEAD
+=======
+            # On Windows, use shell=True to find .cmd files in PATH
+>>>>>>> edbe72d (silver tier)
             result = subprocess.run(
                 ['qwen', '--version'],
                 capture_output=True,
                 text=True,
+<<<<<<< HEAD
                 timeout=10
+=======
+                timeout=10,
+                shell=True
+>>>>>>> edbe72d (silver tier)
             )
             return result.returncode == 0
         except (FileNotFoundError, subprocess.TimeoutExpired):
@@ -211,7 +220,108 @@ Processing: {item_file.name}
 
             except Exception as e:
                 self.logger.error(f"Error processing {item_file.name}: {e}")
+<<<<<<< HEAD
     
+=======
+
+    def _process_plans_with_qwen(self):
+        """
+        Run Qwen Code on pending plan files.
+
+        This is the auto-invoke logic that triggers Qwen Code to:
+        1. Read plan files with status: pending
+        2. Process the plan (analyze, execute, create approvals)
+        3. Update plan status to: processed
+        """
+        if not self.qwen_available:
+            self.logger.warning("Qwen Code not available, skipping plan processing")
+            return
+
+        # Find pending plans
+        pending_plans = []
+        for plan_file in self.plans.iterdir():
+            if plan_file.suffix != '.md':
+                continue
+            try:
+                content = plan_file.read_text(encoding='utf-8')
+                if 'status: pending' in content:
+                    pending_plans.append(plan_file)
+            except Exception as e:
+                self.logger.error(f"Error reading plan {plan_file.name}: {e}")
+
+        if not pending_plans:
+            return
+
+        self.logger.info(f"Processing {len(pending_plans)} pending plan(s) with Qwen Code")
+
+        for plan_file in pending_plans:
+            try:
+                self.logger.info(f"Invoking Qwen Code for: {plan_file.name}")
+
+                # Read the plan content
+                plan_content = plan_file.read_text(encoding='utf-8')
+                
+                # Extract source file from plan
+                source_match = None
+                for line in plan_content.split('\n'):
+                    if 'Processing:' in line:
+                        source_match = line.split('Processing:')[1].strip()
+                        break
+                
+                source_file = self.needs_action / source_match if source_match else None
+                
+                # Read source file content if exists
+                source_content = ""
+                if source_file and source_file.exists():
+                    try:
+                        source_content = source_file.read_text(encoding='utf-8')
+                    except:
+                        pass
+
+                # Build the prompt for Qwen Code with explicit instructions
+                prompt = f"""You are an AI Employee. Process this task AUTOMATICALLY.
+
+**PLAN FILE:** {plan_file.absolute()}
+**PLAN CONTENT:**
+{plan_content}
+
+**SOURCE FILE:** {source_file.absolute() if source_file else "N/A"}
+**SOURCE CONTENT:**
+{source_content if source_content else "No source file"}
+
+**YOUR TASK (Execute ALL steps automatically):**
+1. Read and understand the plan above
+2. If source file exists in Needs_Action, read and categorize it
+3. Move the source file from Needs_Action to Done folder
+4. Update the plan file: change "status: pending" to "status: processed"
+5. Mark all checkboxes [ ] as [x] in the plan
+6. Add notes about what you did
+
+**IMPORTANT:** Do NOT ask questions. Do NOT wait for input. Execute ALL steps automatically now.
+Use -y flag to auto-approve all file operations.
+
+Start executing now:"""
+
+                # Run Qwen Code with the prompt using --approval-mode yolo for auto-approval
+                result = subprocess.run(
+                    ['qwen', prompt, '--approval-mode', 'yolo'],
+                    text=True,
+                    timeout=300,  # 5 minutes per plan
+                    shell=True,
+                    cwd=str(self.vault_path)
+                )
+
+                if result.returncode == 0:
+                    self.logger.info(f"Successfully processed: {plan_file.name}")
+                else:
+                    self.logger.error(f"Qwen Code error for {plan_file.name}: exit code {result.returncode}")
+
+            except subprocess.TimeoutExpired:
+                self.logger.error(f"Timeout processing plan: {plan_file.name}")
+            except Exception as e:
+                self.logger.error(f"Error processing plan {plan_file.name}: {e}")
+
+>>>>>>> edbe72d (silver tier)
     def _check_approvals(self):
         """
         Check for approved actions ready to execute.
@@ -299,11 +409,26 @@ Processing: {item_file.name}
             return True
     
     def start_all_watchers(self):
+<<<<<<< HEAD
         """Start all available watchers."""
         # For Bronze tier, just start the filesystem watcher
         self.start_watcher('filesystem_watcher')
         
         # Higher tiers would start gmail_watcher, whatsapp_watcher, etc.
+=======
+        """Start all available watchers (Silver Tier)."""
+        # Bronze: Filesystem watcher
+        self.start_watcher('filesystem_watcher')
+        
+        # Silver Tier: Gmail Watcher
+        self.start_watcher('gmail_watcher')
+        
+        # Silver Tier: LinkedIn Scheduler (runs hourly)
+        # Note: LinkedIn scheduler creates drafts, not continuous watcher
+        # self.start_watcher('linkedin_scheduler')
+        
+        # Higher tiers: gmail_watcher, whatsapp_watcher, etc.
+>>>>>>> edbe72d (silver tier)
     
     def stop_all_watchers(self):
         """Stop all watcher processes."""
@@ -315,8 +440,14 @@ Processing: {item_file.name}
         self.logger.info("Running single processing cycle")
         self._update_dashboard()
         self._process_needs_action()
+<<<<<<< HEAD
         self._check_approvals()
     
+=======
+        self._process_plans_with_qwen()
+        self._check_approvals()
+
+>>>>>>> edbe72d (silver tier)
     def run(self, check_interval: int = 30):
         """
         Main orchestrator loop.
@@ -337,10 +468,20 @@ Processing: {item_file.name}
                 try:
                     # Update dashboard
                     self._update_dashboard()
+<<<<<<< HEAD
                     
                     # Process pending items
                     self._process_needs_action()
                     
+=======
+
+                    # Process pending items (create plans)
+                    self._process_needs_action()
+
+                    # Process plans with Qwen Code (auto-invoke)
+                    self._process_plans_with_qwen()
+
+>>>>>>> edbe72d (silver tier)
                     # Check approvals
                     self._check_approvals()
                     
