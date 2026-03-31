@@ -1,0 +1,93 @@
+# ============================================================
+# AI Employee Project - .gitignore
+# PROTECT SENSITIVE FILES - NEVER COMMIT THESE
+# ============================================================
+
+# ============================================================
+# GMAIL CREDENTIALS & TOKENS (CRITICAL!)
+# ============================================================
+AI_Employee_Vault/watchers/credentials.json
+AI_Employee_Vault/watchers/token.json
+gmail_send_token.json
+gmail_session.json
+gmail_api_token.json
+
+# ============================================================
+# LINKEDIN SESSION (CRITICAL!)
+# ============================================================
+linkedin_session.json
+linkedin_send_token.json
+
+# ============================================================
+# PLAYWRIGHT BROWSER PROFILE (Contains cookies/sessions)
+# ============================================================
+playwright-profile/
+playwright-session.json
+
+# ============================================================
+# PYTHON CACHE & BUILD FILES
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+python
+*.manifest
+*.spec
+
+# ============================================================
+# IDE & EDITOR FILES
+# ============================================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ============================================================
+# LOGS & TEMPORARY FILES
+# ============================================================
+*.log
+logs/
+*.tmp
+*.temp
+
+# ============================================================
+# ENVIRONMENT VARIABLES
+# ============================================================
+.env
+.env.local
+.env.*.local
+
+# ============================================================
+# OS GENERATED FILES
+# ============================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# ============================================================
+# END OF GITIGNORE
+# ============================================================
